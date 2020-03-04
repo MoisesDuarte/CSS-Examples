@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'OpenMine';
+    src: url(8-Bit\ Madness.ttf);
+}
+
+html,
+body,
+* {
+    background-color: black;
+    color: white;
+    font-family: OpenMine;
+    font-size: 115%;
+}
+
+.form-flex {
+    display: flex;
+    flex-direction: column;
+    width: 60vh;
+    margin: auto;
+}
+
+.abilities-group {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    margin-bottom: 2px;
+}
+
+input {
+    background-color: transparent;
+    color: inherit;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-bottom: 24px;
+    padding: 7px;
+}
+
+input[type=number] {
+    width: 15%;
+    margin-right: 12px;
+}
+
+button {
+    border: 2px solid white;
+    border-radius: 2px;
+    color: inherit;
+    padding: 8px;
+}

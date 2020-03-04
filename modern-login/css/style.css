@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 60vh;
+    padding: 18px;
+    border: 1px solid gray;
+    border-radius: 7px;
+}
+
+.formTitle {
+    font-size: 125%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+input {
+    background-repeat: no-repeat;
+    background-position: 8px 8px;
+    border: 1px solid gray;
+    border-radius: 4px 4px 0px 0px;
+    margin-bottom: 8px;
+    padding: 12px;
+    padding-left: 40px;
+}
+
+input:focus {
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 1);
+}
+
+.inputName {
+    background-image: url(../img/account.png);
+
+}
+
+.inputPass {
+    background-image: url(../img/key-variant.png);
+}
+
+button {
+    border: none;
+    background-color: #54b862;
+    color: white;
+    padding: 8px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #5ecf6d;
+    cursor: pointer;
+}
