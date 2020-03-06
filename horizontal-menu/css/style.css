@@ -41,3 +41,10 @@ body {
 .fas {
     margin-right: 8px;
 }
+
+@media (max-width: 600px) {
+    .menu-link {
+        display: block;
+        text-align: center;
+    }
+}
